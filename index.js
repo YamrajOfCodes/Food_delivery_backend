@@ -7,8 +7,6 @@ require('dotenv').config();
 
 app.use(cors());
 
-
-app.use(express.urlencoded()); 
 app.use(express.json());
 dbconnect();
 
